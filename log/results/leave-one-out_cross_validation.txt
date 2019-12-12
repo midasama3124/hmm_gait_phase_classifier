@@ -1,0 +1,219 @@
+Leave tatiana out:
+[1] Improvement: 6887667191.23	Time (s): 1.266
+[2] Improvement: 572440.439856	Time (s): 1.25
+[3] Improvement: 733843.85701	Time (s): 1.245
+[4] Improvement: 31400.7287492	Time (s): 1.243
+[5] Improvement: 11468.0553017	Time (s): 1.243
+[6] Improvement: 6816.20167146	Time (s): 1.242
+[7] Improvement: 6598.0137469	Time (s): 1.243
+[8] Improvement: 5361.19737983	Time (s): 1.241
+[9] Improvement: 3985.83046988	Time (s): 1.241
+[10] Improvement: 3855.15621323	Time (s): 1.242
+[11] Improvement: 3367.31732314	Time (s): 1.244
+[12] Improvement: 2749.80956774	Time (s): 1.24
+[13] Improvement: 2623.7998011	Time (s): 1.242
+[14] Improvement: 2639.55792254	Time (s): 1.241
+[15] Improvement: 2382.87447513	Time (s): 1.239
+[16] Improvement: 2274.36192552	Time (s): 1.288
+[17] Improvement: 2389.43210343	Time (s): 1.45
+[18] Improvement: 2195.0678228	Time (s): 1.477
+[19] Improvement: 1641.48025717	Time (s): 1.447
+[20] Improvement: 1158.61642769	Time (s): 1.44
+[21] Improvement: 866.652694184	Time (s): 1.443
+[22] Improvement: 588.932077226	Time (s): 1.438
+[23] Improvement: 416.894094439	Time (s): 1.452
+[24] Improvement: 303.339303289	Time (s): 1.45
+[25] Improvement: 224.044020948	Time (s): 1.467
+[26] Improvement: 166.260091563	Time (s): 1.462
+[27] Improvement: 110.535754601	Time (s): 1.449
+[28] Improvement: 68.0931093423	Time (s): 1.448
+[29] Improvement: 41.842069827	Time (s): 1.445
+[30] Improvement: 25.8447356895	Time (s): 1.444
+[31] Improvement: 15.9396127677	Time (s): 1.447
+[32] Improvement: 9.76121590566	Time (s): 1.447
+[33] Improvement: 5.93026411068	Time (s): 1.446
+[34] Improvement: 3.57523111627	Time (s): 1.449
+[35] Improvement: 2.14353399724	Time (s): 1.451
+[36] Improvement: 1.27914633881	Time (s): 1.451
+[37] Improvement: 0.760254163295	Time (s): 1.447
+[38] Improvement: 0.451496954076	Time (s): 1.451
+[39] Improvement: 0.267656502314	Time (s): 1.447
+[40] Improvement: 0.158644468524	Time (s): 1.446
+[41] Improvement: 0.0937611060217	Time (s): 1.444
+[42] Improvement: 0.0555193368345	Time (s): 1.445
+[43] Improvement: 0.032712912187	Time (s): 1.444
+[44] Improvement: 0.0193963674828	Time (s): 1.446
+[45] Improvement: 0.0114564094692	Time (s): 1.442
+[46] Improvement: 0.00676353834569	Time (s): 1.449
+[47] Improvement: 0.00400190707296	Time (s): 1.445
+[48] Improvement: 0.00241080950946	Time (s): 1.446
+[49] Improvement: 0.0014432137832	Time (s): 1.444
+[50] Improvement: 0.000743928365409	Time (s): 1.446
+[51] Improvement: 0.000519670546055	Time (s): 1.446
+[52] Improvement: 0.000227613374591	Time (s): 1.442
+[53] Improvement: 0.000241303816438	Time (s): 1.441
+[54] Improvement: 8.56127589941e-05	Time (s): 1.441
+[55] Improvement: 4.47779893875e-06	Time (s): 1.443
+[56] Improvement: 5.84973022342e-05	Time (s): 1.445
+[57] Improvement: 5.80307096243e-05	Time (s): 1.444
+[58] Improvement: -3.73227521777e-05	Time (s): 1.443
+Total Training Improvement: 6889069235.97
+Total Training Time (s): 82.3178
+Timing error
+(hs)
+-0.0190119838731 + 0.013542687005
+(ff)
+-0.0246379749116 + 0.00468839088491
+(ho)
+-0.0119012315207 + 0.0171950528219
+(sw)
+0.0127080521817 + 0.0126066319457
+Mean time (MT) and Coefficient of Variance (CoV)
+Results for HMM:
+(hs)
+Mean time: 0.819657316368 + 0.140266476855
+CoV: 17.1128194739
+(ff)
+Mean time: 0.566575694043 + 0.0941845098878
+CoV: 16.6234645923
+(ho)
+Mean time: 0.212324681897 + 0.0531393231824
+CoV: 25.0273885766
+(sw)
+Mean time: 0.00506072874494 + 0.0
+CoV: 0.0
+(Stride)
+Mean time: 1.60548200022 + 0.220463587997
+CoV: 13.7319252391
+Results for FSR:
+(hs)
+Mean time: 0.224854213869 + 0.121314960999
+CoV: 53.9527184798
+(ff)
+Mean time: 0.721567905778 + 0.142477726593
+CoV: 19.745574249
+(ho)
+Mean time: 0.114957471307 + 0.041754869732
+CoV: 36.3220147915
+(sw)
+Mean time: 0.580730230658 + 0.0364428951148
+CoV: 6.27535698866
+(Stride)
+Mean time: 1.6450648523 + 0.0498864977782
+CoV: 3.03249429397
+Accuracy: 75.2230195582%
+Sensitivity: 50.4266142707%
+Specificity: 83.9980188023%
+Good classifier (0.25 < G = 0.520920720927 <= 0.7)
+Leave pedro out:
+[1] Improvement: 6535315094.8	Time (s): 1.604
+[2] Improvement: 615284.862253	Time (s): 1.521
+[3] Improvement: 99385.8540365	Time (s): 1.519
+[4] Improvement: 47113.257352	Time (s): 1.512
+[5] Improvement: 15633.327187	Time (s): 1.516
+[6] Improvement: 5899.79545089	Time (s): 1.509
+[7] Improvement: 2324.68536197	Time (s): 1.507
+[8] Improvement: 954.112868887	Time (s): 1.506
+[9] Improvement: 396.069051334	Time (s): 1.506
+[10] Improvement: 177.634493393	Time (s): 1.511
+[11] Improvement: 95.0475839488	Time (s): 1.503
+[12] Improvement: 57.969464398	Time (s): 1.507
+[13] Improvement: 36.8893978754	Time (s): 1.51
+[14] Improvement: 23.7388088563	Time (s): 1.503
+[15] Improvement: 15.1856785938	Time (s): 1.504
+[16] Improvement: 10.0685850997	Time (s): 1.503
+[17] Improvement: 6.98707982246	Time (s): 1.504
+[18] Improvement: 5.02811772935	Time (s): 1.503
+[19] Improvement: 3.78809072729	Time (s): 1.503
+[20] Improvement: 3.06819740031	Time (s): 1.503
+[21] Improvement: 2.73622709978	Time (s): 1.504
+[22] Improvement: 2.66333036311	Time (s): 1.505
+[23] Improvement: 2.67080037668	Time (s): 1.511
+[24] Improvement: 2.58674118482	Time (s): 1.51
+[25] Improvement: 2.36566760112	Time (s): 1.505
+[26] Improvement: 2.05763167795	Time (s): 1.504
+[27] Improvement: 1.71565244626	Time (s): 1.504
+[28] Improvement: 1.37591189053	Time (s): 1.506
+[29] Improvement: 1.06609639898	Time (s): 1.503
+[30] Improvement: 0.803315683268	Time (s): 1.51
+[31] Improvement: 0.592297368683	Time (s): 1.504
+[32] Improvement: 0.429472820833	Time (s): 1.505
+[33] Improvement: 0.307583289221	Time (s): 1.503
+[34] Improvement: 0.218088602647	Time (s): 1.511
+[35] Improvement: 0.153392707929	Time (s): 1.505
+[36] Improvement: 0.107205899432	Time (s): 1.509
+[37] Improvement: 0.0745345596224	Time (s): 1.504
+[38] Improvement: 0.0516671044752	Time (s): 1.529
+[39] Improvement: 0.0356619283557	Time (s): 1.51
+[40] Improvement: 0.024601155892	Time (s): 1.506
+[41] Improvement: 0.0168400295079	Time (s): 1.511
+[42] Improvement: 0.0115713514388	Time (s): 1.504
+[43] Improvement: 0.0078886076808	Time (s): 1.5
+[44] Improvement: 0.00540609564632	Time (s): 1.504
+[45] Improvement: 0.00370828993618	Time (s): 1.503
+[46] Improvement: 0.00250043999404	Time (s): 1.509
+[47] Improvement: 0.00174919981509	Time (s): 1.505
+[48] Improvement: 0.00121834594756	Time (s): 1.508
+[49] Improvement: 0.000791470520198	Time (s): 1.502
+[50] Improvement: 0.000532359816134	Time (s): 1.501
+[51] Improvement: 0.000395843759179	Time (s): 1.502
+[52] Improvement: 0.000249181874096	Time (s): 1.504
+[53] Improvement: 0.00017604790628	Time (s): 1.495
+[54] Improvement: 6.95567578077e-05	Time (s): 1.496
+[55] Improvement: 4.96385619044e-05	Time (s): 1.495
+[56] Improvement: 0.000121478922665	Time (s): 1.507
+[57] Improvement: 3.46219167113e-05	Time (s): 1.504
+[58] Improvement: 3.66475433111e-06	Time (s): 1.496
+[59] Improvement: 7.1476213634e-05	Time (s): 1.504
+[60] Improvement: 7.35931098461e-06	Time (s): 1.488
+[61] Improvement: 7.48597085476e-06	Time (s): 1.504
+[62] Improvement: -2.72635370493e-05	Time (s): 1.497
+Total Training Improvement: 6536102544.26
+Total Training Time (s): 95.3172
+Timing error
+(hs)
+-0.0222863384091 + 0.0102907675205
+(ff)
+-0.020981247239 + 0.0119335000731
+(ho)
+-0.0129100275948 + 0.0170965173374
+(sw)
+-0.0255474452555 + 3.46944695195e-18
+Mean time (MT) and Coefficient of Variance (CoV)
+Results for HMM:
+(hs)
+Mean time: 0.656928604015 + 0.183689377636
+CoV: 27.9618479867
+(ff)
+Mean time: 0.468222311627 + 0.156872523824
+CoV: 33.5038548845
+(ho)
+Mean time: 0.277932439314 + 0.0647631824372
+CoV: 23.3017716813
+(sw)
+Mean time: 0.00594126633848 + 0.00444391895182
+CoV: 74.7975044147
+(Stride)
+Mean time: 1.41202942698 + 0.278602693619
+CoV: 19.7306577537
+Results for FSR:
+(hs)
+Mean time: 0.622080291971 + 0.113901215387
+CoV: 18.3097289622
+(ff)
+Mean time: 0.384020681265 + 0.0510991305013
+CoV: 13.3063485886
+(ho)
+Mean time: 0.0623357664234 + 0.0160712180603
+CoV: 25.7816964199
+(sw)
+Mean time: 0.430126078301 + 0.115431507372
+CoV: 26.8366679435
+(Stride)
+Mean time: 1.50214720195 + 0.129800961846
+CoV: 8.64102810147
+Accuracy: 76.6695858523%
+Sensitivity: 53.1302966102%
+Specificity: 85.2299869019%
+Good classifier (0.25 < G = 0.491418597813 <= 0.7)
+Leave felipe o

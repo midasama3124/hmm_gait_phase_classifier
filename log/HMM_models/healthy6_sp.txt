@@ -1,0 +1,3 @@
+"class: Distribution\nfrozen: true\nname: MultivariateGaussianDistribution\nparameters:\n\
+  - [-163.79899199715337, -3.5319280140461577]\n- - [12771.001275909593, -902.130355653906]\n\
+  \  - [-902.130355653906, 188.95648886005574]\n"

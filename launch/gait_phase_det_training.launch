@@ -1,0 +1,4 @@
+<launch>
+  <rosparam file="$(find exo_gait_phase_det)/config/online_detection.yaml" />
+  <node pkg="exo_gait_phase_det" name="train_hmm" type="train_hmm.py" output="screen"/>
+</launch>

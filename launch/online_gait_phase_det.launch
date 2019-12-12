@@ -1,0 +1,12 @@
+<launch>
+  <!-- ARGS -->
+  <arg name="debug" default="false" />
+  <arg unless="$(arg debug)" name="launch_prefix" value="" />
+  <arg if="$(arg debug)" name="launch_prefix" value="gdb --ex run --args" />
+
+  <!-- PARAMS -->
+  <rosparam file="$(find exo_gait_phase_det)/config/online_detection.yaml" />
+
+  <!-- NODES -->
+  <node pkg="exo_gait_phase_det" name="real_time_gait_phase_det" type="real_time_gait_phase_det.py" output="screen" launch-prefix="$(arg launch_prefix)"/>
+</launch>

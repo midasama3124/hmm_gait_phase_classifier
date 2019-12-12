@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hmm_gait_phase_classifier</name>
+  <version>0.0.0</version>
+  <description>Real-time gait phase detection method based on HMM</description>
+
+  <maintainer email="miguel.sanchez-m@escuelaing.edu.co">Miguel Sanchez-Manchola</maintainer>
+  <author email="miguel.sanchez-m@escuelaing.edu.co">Miguel Sanchez-Manchola</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>roslib</build_depend>
+
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>roslib</exec_depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
