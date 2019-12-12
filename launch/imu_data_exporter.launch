@@ -5,8 +5,8 @@
   <arg if="$(arg debug)" name="launch_prefix" value="gdb --ex run --args" />
 
   <!-- PARAMS -->
-  <rosparam file="$(find exo_gait_phase_det)/config/online_detection.yaml" />
+  <rosparam file="$(find hmm_gait_phase_classifier)/config/online_detection.yaml" />
 
   <!-- NODES -->
-  <node pkg="exo_gait_phase_det" name="imu_data_exporter" type="imu_data_exporter.py" output="screen" launch-prefix="$(arg launch_prefix)"/>
+  <node pkg="hmm_gait_phase_classifier" name="imu_data_exporter" type="imu_data_exporter.py" output="screen" launch-prefix="$(arg launch_prefix)"/>
 </launch>

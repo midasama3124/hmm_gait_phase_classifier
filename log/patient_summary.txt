@@ -1,0 +1,21 @@
+Heathy subjects:
+daniel
+erika
+felipe
+jonathan
+luis
+nathalia
+paula
+pedro
+tatiana
+
+Pathological subjects:
+andres
+carlos
+carmen
+carolina
+catalina
+claudia
+emmanuel
+fabian
+gustavo

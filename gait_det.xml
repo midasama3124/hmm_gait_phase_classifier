@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <root version="2.3.8">
  <tabbed_widget parent="main_window" name="Main Window">
-  <plotmatrix rows="1" columns="1" tab_name="plot">
+  <plotmatrix columns="1" tab_name="plot" rows="1">
    <plot row="0" col="0">
-    <range top="282.293892" bottom="-277.256005" right="16.216342" left="11.215191"/>
+    <range right="11.341744" left="6.344733" top="1185.901264" bottom="-357.975427"/>
     <limitY/>
-    <curve G="119" R="31" custom_transform="noTransform" B="180" name="/imu_data/gyro_y"/>
-    <curve G="39" R="214" custom_transform="noTransform" B="40" name="aug_phase"/>
+    <curve custom_transform="noTransform" name="/imu_data/angular_velocity/y" R="31" G="119" B="180"/>
+    <curve custom_transform="noTransform" name="aug_phase" R="214" G="39" B="40"/>
     <transform value="noTransform"/>
    </plot>
   </plotmatrix>
@@ -32,8 +32,8 @@
    <discard_large_arrays value="true"/>
    <max_array_size value="100"/>
   </plugin>
-  <plugin ID="ROS /rosout Visualization" status="idle"/>
-  <plugin ID="ROS Topic Re-Publisher" status="idle"/>
+  <plugin status="idle" ID="ROS /rosout Visualization"/>
+  <plugin status="idle" ID="ROS Topic Re-Publisher"/>
  </Plugins>
  <!-- - - - - - - - - - - - - - - -->
  <previouslyLoaded_Datafiles/>

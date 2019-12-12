@@ -1,7 +1,7 @@
 gait_phase_det:
   algorithm: "fov"     # Forward-only Viterbi algorithm
   # algorithm: "bvsw"      # Bounded variable sliding window approach
-  # patient: "healthy1"       # "healthy[n]" for healthy subjects without significant asimmetries, 1 <= n <= 6
-  patient: "miguel_sanchez"       # "healthy[n]" for healthy subjects without significant asimmetries, 1 <= n <= 6
+  patient: "healthy1"       # "healthy[n]" for healthy subjects without significant asimmetries, 1 <= n <= 6
+  # patient: "felipe"       # "healthy[n]" for healthy subjects without significant asimmetries, 1 <= n <= 6
   verbose: True
   training_time: 120       # seconds

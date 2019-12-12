@@ -5,8 +5,8 @@
   <arg if="$(arg debug)" name="launch_prefix" value="gdb --ex run --args" />
 
   <!-- PARAMS -->
-  <rosparam file="$(find exo_gait_phase_det)/config/online_detection.yaml" />
+  <rosparam file="$(find hmm_gait_phase_classifier)/config/online_detection.yaml" />
 
   <!-- NODES -->
-  <node pkg="exo_gait_phase_det" name="real_time_gait_phase_det" type="real_time_gait_phase_det.py" output="screen" launch-prefix="$(arg launch_prefix)"/>
+  <node pkg="hmm_gait_phase_classifier" name="real_time_gait_phase_det" type="real_time_gait_phase_det.py" output="screen" launch-prefix="$(arg launch_prefix)"/>
 </launch>
