@@ -12,6 +12,14 @@ This segmentation method makes use of the pomegranate library to create a Gaussi
 
 In this sense, this classification method implements two training approaches in order to assess intra/inter variability within both healthy and pathological subjects. As part of an approved experimental protocol, a study was conducted involving 18 participants (9 healthy, 9 pathological) performed three walking trials on a treadmill at a self-selected speed (Patient summary found in `log/patient_summary.txt`). On the one hand, a subject-specific technique trains the model with data drawn from the first two walking trials and test its performance with the remaining one by comparing the outcomes with an FSR-based reference system (`scripts/util/HMM_sclassifier_intra-sub_train.py`). On the other hand, an intra-subject approach uses data from healthy subjects to train the model and test with the last walking trial corresponding to the assessed subject (`scripts/util/HMM_sclassifier_intra-sub_train.py`).
 
+## Prerequisites
+
+Since the algorithms comprised within this package require a high processing power, we recommend you to install the dependencies on an external computer with enough capabilities. Knowing that, the HMM-based detection method utilizes the Pomegranate library to run the adaptative model in Python. To install this dependency, type the following command line into a terminal:
+
+```
+pip install pomegranate
+```
+
 ## Usage for online implementation
 
 In order to tailor an HMM for each subject, a training procedure appears to be mandatory. To this end, some inertial data needs to be collected prior to the actual validation. To do so, the subject's name has to be first setup in the configuration file (open `config/online_detection.yaml` and change the `patient` entry as follows: `<firstname_lastname>`), and then data drawn from an inertial sensor (BNO055, Bosch) can be acquired by running the following node (after having run `roscore`):
