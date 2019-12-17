@@ -20,6 +20,38 @@ Since the algorithms comprised within this package require a high processing pow
 pip install pomegranate
 ```
 
+If you still want to install this dependency on a Raspberry Pi, even though its processing limitations, you have to clone the developer repository:
+
+```
+git clone https://github.com/jmschrei/pomegranate
+```
+
+Then, look at the installation requirement needed to compile the pomegranate library:
+
+```
+cat requirements.txt
+```
+
+and consistently install these dependencies with the specified versions by running something like:
+
+```
+pip install '[package_name] <>== 0.0'
+```
+
+One additional depedency that you may have to install even though it is not included in the requirements file is `cython`. Once all dependencies are installed, run the following line command:
+
+```
+pip install git+https://github.com/jmschrei/pomegranate.git
+```
+
+And reboot the board by running:
+
+```
+sudo reboot
+```
+
+Now, the pomegranate library should be working on the Rpi.
+
 ## Usage for online implementation
 
 In order to tailor an HMM for each subject, a training procedure appears to be mandatory. To this end, some inertial data needs to be collected prior to the actual validation. To do so, the subject's name has to be first setup in the configuration file (open `config/online_detection.yaml` and change the `patient` entry as follows: `<firstname_lastname>`), and then data drawn from an inertial sensor (BNO055, Bosch) can be acquired by running the following node (after having run `roscore`):
@@ -54,7 +86,7 @@ roslaunch hmm_gait_phase_classifier online_gait_phase_det.launch
 
 The first use of this node with a new subject may take a minute since it searches for the reference labels, initilizes the gaussian distribution of each state, trains the model using the Baum-Welch algorithm, and finally saves the optimized parameters of both the distributions and the model itself in the route `log/HMM_models/`. For further uses with the same subject, it is only necessary to run this last launch file, since the subject-specific model, which was previously trained, is then loaded. For the case of healthy subjects, the training procedure may be skipped by using generic models stored in the same directory (`log/HMM_models/healthy<n>`).
 
-Once the online detection nodes prompts up a warning message saying `Spinning...`, it means that the model is ready to receive inertial data (either captured in real-time or simulated from data already collected) via the topic `imu_data` and to segment the gait cycle into the gait events. 
+Once the online detection nodes prompts up a warning message saying `Spinning...`, it means that the model is ready to receive inertial data (either captured in real-time or simulated from data already collected) via the topic `imu_data` and to segment the gait cycle into the gait events in the following manner: 0 means heel-strike, 1 means flat foot, 2 means heel-off, and 3 means toe-off. 
 
 For the visualization of the classifier performance, we recommend you to use the tool `PlotJuggler`:
 
